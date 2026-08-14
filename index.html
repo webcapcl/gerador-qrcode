@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API QRCODE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+   <div class="container">
+        <h1>Gerador de Qr Code</h1>
+        <P>Digite um texto ou link:</P>
+        <input type="text" id="texto" placeholder="Digite aqui.">
+        <button onclick="gerarQRcode()">Gerar Qr Code</button>
+        <div id="qrcode"></div>
+       
+       
+    </div>
+
+    <!-- link Conexao do API --> 
+    <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+    
+  
+
+
+</body>
+</html>
+
+
